@@ -1,0 +1,17 @@
+{
+    "version": "2022-12-15",
+    "statement": [
+      {
+        "principal": [
+          "ari:iam::d085c5a5-5765-4d8f-b00e-398f0916a161:machine_user/4b14f758-d725-47bc-865a-6e176581edba"
+        ],
+        "action": [
+          "*"
+        ],
+        "resource": [
+          "*"
+        ],
+        "effect": "Allow"
+      }
+    ]
+  }
