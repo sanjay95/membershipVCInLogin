@@ -151,7 +151,9 @@ const Registration: FC = () => {
       }
       const startIssue = async () => {
         try {
-          const response = await axios<issuanceResponse>(`${hostUrl}/api/credentials/issuance-start`, {
+          const hostname = window.location.host;
+          console.log('hostname',hostname);
+          const response = await axios<issuanceResponse>(`/api/credentials/issuance-start`, {
             method: 'POST',
             data: finalCredData,
             headers: {
